@@ -1,0 +1,16 @@
+### GET request to example server
+GET http://localhost:8080/users
+
+### GET request to example server
+GET http://localhost:8080/users/2
+
+### Send POST request with json body
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "user2",
+  "password": "password",
+  "email": "email@email",
+  "userActive": true
+}
