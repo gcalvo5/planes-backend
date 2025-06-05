@@ -1,5 +1,8 @@
-package com.planes
+package com.planes.controllers
 
+import com.planes.dtos.UsersDTO
+import com.planes.services.UsersService
+import com.planes.models.Users
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
